@@ -21,9 +21,10 @@ The basic idea of PLA is that starting from a certain predictive solution, throu
 From the data, assume X as the predictor which is a matrix of data points where each column is a data point in the space of each *d* dimension. and y are the labels corresponding to each data point stored in a vector
 
 And We can calculate the boundary is the linear that has the equation:
- + Pre-Activation Function: Z = w</sub>1x</sub>1 + w</sub>2</sub>x</sub>2 + b
+ + Pre-Activation Function: Z = w</sub>1</sub> x</sub>1</sub> + w</sub>2</sub> x</sub>2</sub> + b
 
- h<sub>&theta;</sub>(x) = &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
+ h<sub>&theta;</sub>(x) =
+  &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
   
 + Post Activation function: a = &Phi;(z)
 
