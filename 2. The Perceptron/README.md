@@ -22,11 +22,5 @@ From the data, assume X as the predictor which is a matrix of data points where 
 
 And We can calculate the boundary is the linear that has the equation:
  + Pre-Activation Function: Z = w<sub>1</sub> x<sub>1</sub> + w<sub>2</sub> x<sub>2</sub> + b
-
- h<sub>&theta;</sub>(x) =
-  &theta;<sub>o</sub> x + &theta;<sub>1</sub>x
-  
-+ Post Activation function: a = &Phi;(z)
-
-+Activation Function: &Phi;(z) = { 1    z > 0
-                                   -1   z < 0
+ + Post Activation function: a = &Phi;(z)
+ + Activation Function: &Phi;(z) = { (1 if z > 0) (-1 if z < 0)
