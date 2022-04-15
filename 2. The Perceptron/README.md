@@ -21,8 +21,9 @@ The basic idea of PLA is that starting from a certain predictive solution, throu
 From the data, assume X as the predictor which is a matrix of data points where each column is a data point in the space of each *d* dimension. and y are the labels corresponding to each data point stored in a vector
 
 And We can calculate the boundary is the linear that has the equation:
- $$f_w(X) = w_1x_1 + ... + w_dx_d + w_0 = W^T*\bar{x} = 0$$
-
+$$
+\min_{w\in \mathbb{R}} f(w) \:\:\:\:\:\:\:\:\:\: (\text{PROBLEM 1})
+$$
  with $\bar{x}$ is the extended data point by adding the element $x_0 = 1$ in front of the vector x similar to in Linear Regression.
 
  So if w is a solution of the Perceptron problem, with a new data point x unlabelled, we can determine its class by simple math as follows:
