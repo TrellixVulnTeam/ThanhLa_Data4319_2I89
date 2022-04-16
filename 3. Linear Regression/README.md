@@ -12,7 +12,7 @@ Hồi quy tuyến tính hay Linear Regression là một thuật toán nhằm m�
 
 + Pre-Activation Function: Z = w<sub>1</sub> x<sub>1</sub> + w<sub>2</sub> x<sub>2</sub> + ... + w<sub>n</sub> x<sub>n</sub>
 + Post Activation function: a = &Phi;(z) = z
-+ Cost function: ![\Large x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}](https://latex.codecogs.com/svg.latex?\Large&space;x=\frac{-b\pm\sqrt{b^2-4ac}}{2a}) 
++ Cost function: <img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 
 
 
