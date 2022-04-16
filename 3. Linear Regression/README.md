@@ -13,7 +13,8 @@ Linear Regression or Linear Regression is an algorithm that aims to find the coe
 + Pre-Activation Function: Z = w<sub>1</sub> x<sub>1</sub> + w<sub>2</sub> x<sub>2</sub> + ... + w<sub>n</sub> x<sub>n</sub>
 + Post Activation function: a = &Phi;(z) = z
 + Cost function: 
-![C(w, b) = \frac{1}{2N}\sum_{N}^{i = 1} (\hat{y}^{i} - y^{i})^{2}](http://mathurl.com/render.cgi?E%20%3D%20mc%20%5E%202%5Cnocache)
+![my equation](https://latex.codecogs.com/gif.download?%5Czeta%28s%29%20%3D%20%5Csum_%7Bn%3D1%7D%5E%5Cinfty%20%5Cfrac%7B1%7D%7Bn%5Es%7D)
+)
 
 
 
