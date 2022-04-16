@@ -13,8 +13,8 @@ Hồi quy tuyến tính hay Linear Regression là một thuật toán nhằm m�
 + Pre-Activation Function: Z = w<sub>1</sub> x<sub>1</sub> + w<sub>2</sub> x<sub>2</sub> + ... + w<sub>n</sub> x<sub>n</sub>
 + Post Activation function: a = &Phi;(z) = z
 + Cost function: 
-(![image](![image](https://user-images.githubusercontent.com/66760664/163662943-9b1821ab-4cf6-4619-b3fa-62b8011a290a.png))
-)
+![image](![image](https://user-images.githubusercontent.com/66760664/163662943-9b1821ab-4cf6-4619-b3fa-62b8011a290a.png))
+
 
 
 
