@@ -19,8 +19,12 @@ After determining the formula of y, we find the loss function and minimize it (R
 With the way is to test an initial straight line with any w, it is almost certain that we will have data points that are in the wrong area as shown in the image above, so the loss function we consider is the total number of lost points. wrong area. However, considering the sign function is quite difficult, we will consider the loss function as the total data value of the points in the wrong area. This new loss function still has the same minimum value as the old function (zero because we have to divide so that no data is in the wrong area).
 
 And We can calculate the boundary is the linear that has the equation:
- + Pre-Activation Function: Z = w<sub>1</sub> x<sub>1</sub> + w<sub>2</sub> x<sub>2</sub> + b
- + Post Activation function: a = &Phi;(z)
- + Activation Function: &Phi;(z) = { (1 if z > 0) (-1 if z < 0)
+ + Pre-Activation Function: $Z = w_1 x_1 + w_2 x_2 + b$
+ + Post Activation function: $a = \Phi(z)$
+ + Activation Function: $\phi(z) = \begin{cases}
+                                    1 &\text{if} &  z > 0 \\
+                                    -1 &\text{if} & z < 0 
+                                    \end{cases}$
 
-After 
+After We run and train the model, we can predict how well the model work on the test data, and calling *plot decision regions* function to visualize the scatter datapoint ans show the region of space where the point is classified 
+ 
