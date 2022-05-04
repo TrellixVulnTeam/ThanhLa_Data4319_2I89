@@ -12,10 +12,11 @@ The simplest idea of a cluster is a collection of points that are close to each 
 
 Each cluster has a representative point (center), and the points around each center belong to the same group as that center. In the simplest way, considering any point, we consider which point is closest to the center, then it belongs to the same group as that center.
 
-### Machine Learing K Mean Clustering Model
+### Machine Learning K Mean Clustering Model
 The ultimate goal of this clustering algorithm is: from the input data and the number of groups we want to find, specify the center of each group and assign the data points to the corresponding groups.
 
 1. $X = [x_1, x_2,..., x_N] \epsilon R^{d*N}$ and $k < N$ is the number of clusters we want to split. We need to find the centers $m_1, m_2,...m_k$  $\epsilon R^{d*1}$ and label of each datapoint
 2. With each $x_i$ that $y_i = [y_{i1}, y_{i2},..., y_{ik}]$ 
    where $x_i$ is assigned to cluster k, we have: $$y_{ik} \epsilon \{0, 1\}, \sum_{k=1}^{k} y_{ik} = 1$$
-3. After find the k cluster for each point, and assign the datapoint to each cluster. Keep Update the center for each cluster by averaging all the data points assigned to the cluster
+3. After find the k cluster for each point, and assign the datapoint to each cluster. Keep Update the center for each cluster by averaging all the data points assigned to the cluster until The assignment of data to each cluster in step 2 does not change compared to the previous loop, then we stop the algorithm.
+   
