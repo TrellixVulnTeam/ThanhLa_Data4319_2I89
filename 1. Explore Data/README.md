@@ -30,4 +30,4 @@ One of the simplest Dimensionality Reduction algorithms is based on a linear mod
    $$T = trace(S) = \frac{{\sigma_1}^2 + ... + {\sigma_m}^2}{n-1}$$
    And the i_th principle component $PC_i$ explained: $$\frac{{\sigma_1}^2/n-1}{T} = \frac{{\sigma_i}^2}{{\sigma_1}^2 + ... + {\sigma_m}^2}$$
    of the total variation.
-6. 
+
